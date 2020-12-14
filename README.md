@@ -48,7 +48,7 @@ Here I tokenized my texts using [Spacy](https://spacy.io/) using a pipeline, whe
 
 The other approach I tried is [Word2vec](https://en.wikipedia.org/wiki/Word2vec/), first using spacy as well , but the results were really poor, using all 3 models mentioned earlier, the issues with the NLP model was probably that it was trained used wikipedia and the syntax and usage of language may difer from what someone can expect on mysoginistic comments on twitter. 
 
-After using [FastText] https://fasttext.cc/ model for spanish, which vectorized the sentences into 300 values , more than the double than spacy's models(128), I tried again with all models, and the results were far superior, by a 15% increase. Even tho the results weren't as successful as TF-IDF they were far more balanced.
+After using [FastText](https://fasttext.cc/) model for spanish, which vectorized the sentences into 300 values , more than the double than spacy's models(128), I tried again with all models, and the results were far superior, by a 15% increase. Even tho the results weren't as successful as TF-IDF they were far more balanced.
 
 ![Word2VecModel](https://i.gyazo.com/408780c5606095685f05fe53af1430ca.png "Word2Vec + MLP")
 
