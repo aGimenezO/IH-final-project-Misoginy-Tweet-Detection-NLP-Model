@@ -13,15 +13,8 @@
   
   2.4. [Word2vec](#word2vec)
   
-  2.5. [The deal](#deal)
+  2.5. [Conclusions](#conclusions)
   
-  2.6. [Natural or Blackjack](#natural)
-  
-  2.7. [Playing](#playing)
-  
-  2.8. [Dealer's play](#dealer)
-  
-  2.9. [Doubling down](#double)
   
 <a name="motivation"></a>
 # Motivation of this project
