@@ -38,7 +38,7 @@ After checking all the information I could retrieve from the tweets, all the inf
 <a name="tfidf"></a>
 ## TF-IDF
 
-Here I tokenized my texts using [Spacy](https://spacy.io) using a pipeline, where I also tried several models (RandomForests,MLP,XGBooster) using RandomSearchCV first to narrow the hyperparameter optimization and later GridSearchCV to have more precision.
+Here I tokenized my texts using [Spacy](https://spacy.io/) using a pipeline, where I also tried several models (RandomForests,MLP,XGBooster) using RandomSearchCV first to narrow the hyperparameter optimization and later GridSearchCV to have more precision.
 
 
 ![TFIDFModel](https://i.gyazo.com/ec6f19874f4af6a9f64f1a96f992a2cc.png "TF-IDF + RandomForest")
@@ -46,7 +46,7 @@ Here I tokenized my texts using [Spacy](https://spacy.io) using a pipeline, wher
 <a name="word2vec"></a>
 ## Word2Vec
 
-The other approach I tried is [Word2vec](https://en.wikipedia.org/wiki/Word2vec), first using spacy as well , but the results were really poor, using all 3 models mentioned earlier, the issues with the NLP model was probably that it was trained used wikipedia and the syntax and usage of language may difer from what someone can expect on mysoginistic comments on twitter. 
+The other approach I tried is [Word2vec](https://en.wikipedia.org/wiki/Word2vec/), first using spacy as well , but the results were really poor, using all 3 models mentioned earlier, the issues with the NLP model was probably that it was trained used wikipedia and the syntax and usage of language may difer from what someone can expect on mysoginistic comments on twitter. 
 
 After using [FastText] https://fasttext.cc/ model for spanish, which vectorized the sentences into 300 values , more than the double than spacy's models(128), I tried again with all models, and the results were far superior, by a 15% increase. Even tho the results weren't as successful as TF-IDF they were far more balanced.
 
