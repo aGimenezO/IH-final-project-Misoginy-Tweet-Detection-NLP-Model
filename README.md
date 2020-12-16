@@ -26,7 +26,7 @@ As someone who tries to fight against any kind of discrimination this seemed lik
 
 <a name="data"></a>
 ## Gather Data
-To obtain my tweets I learned and used [Tweepy](https://www.tweepy.org/). While I was obtaining my data, since I first had to familiarize myself with twitter's API, I came accross a similar project another student from another promotion did before me, since I started to think I wouldn't have enough time to work on the next step since it also involved some technologies we didn't really delved really deep into (NLP) y prefered to use her dataset since it was already classfied and classifying my 7k would be really time consuming and I was afraid I couldn't make it to the deadline with a finished project. Credits for the data to Mar Cánovas.
+To obtain my tweets I learned and used [Tweepy](https://www.tweepy.org/). While I was obtaining my data, since I first had to familiarize myself with twitter's API, I came accross a similar project another student from another promotion did before me, since I started to think I wouldn't have enough time on data labeling and to work on the next step since it also involved some technologies we didn't really delved really deep into (NLP) y prefered to use her dataset since it was already classfied and classifying my 7k would be really time consuming and I was afraid I couldn't make it to the deadline with a finished project. Credits for the data to Mar Cánovas.
 
 Regardless of that The Data extraction notebook contains methods to obtain tweets both from a list of Id's and also from Queries, storing them on dataframes , so any further study could use those methods to investigate new sets of data.
 
