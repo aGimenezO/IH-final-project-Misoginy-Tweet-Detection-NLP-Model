@@ -7,15 +7,15 @@
 
   2.1 [Versions](#versions)
 
-  2.1.[Gather Data](#data)
+  2.2.[Gather Data](#data)
   
-  2.2. [Data Cleaning](#cleaning)
+  2.3. [Data Cleaning](#cleaning)
   
-  2.3. [TF-IDF](#tfidf)
+  2.4. [TF-IDF](#tfidf)
   
-  2.4. [Word2vec](#word2vec)
+  2.5. [Word2vec](#word2vec)
   
-  2.5. [Conclusions](#conclusions)
+  2.6. [Conclusions](#conclusions)
   
   
 <a name="motivation"></a>
