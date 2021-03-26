@@ -5,6 +5,8 @@
 
 2.[Steps](#steps)
 
+  2.1 [Versions](#versions)
+
   2.1.[Gather Data](#data)
   
   2.2. [Data Cleaning](#cleaning)
@@ -23,6 +25,19 @@ As someone who tries to fight against any kind of discrimination this seemed lik
 
 <a name="steps"></a>
 # Steps
+
+<a name="versions"></a>
+## Versions used
+Python 3.8.5
+Numpy 1.18.5
+Pandas 1.1.3
+Tweepy 3.9.0
+Spacy 3.0.0rc2 
+Scikit-learn 0.23.2
+fasttext 0.9.2
+xgboost 1.3.0
+
+Spacy Pipeline : es_core_news_lg (3.0.0a0)
 
 <a name="data"></a>
 ## Gather Data
