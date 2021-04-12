@@ -77,6 +77,8 @@ After using [FastText](https://fasttext.cc/) model for spanish, which vectorized
 <a name="conclusions"></a>
 ## Conclusions
 
-The results of the models, even when optimized through the ussage of the tools described didn't feet really high accuracies, since the accuracy displayed on TF-iDF contained tons of bias and had lots of false positives. And Word2Vec had some more balanced results in terms of bias, but the accuracy overall wasn't sufficient to make any reasonable conclusions from its ussage. Therefore any posterior analysis of any Twitter groups/hastags, friends circle , is posponed until the accuracy of the models used is increased significantly.
+The results of the models, even when optimized through the ussage of the tools described didn't achieve really high accuracies, since the accuracy displayed on TF-iDF contained tons of bias and had lots of false positives. And Word2Vec had some more balanced results in terms of bias, but the accuracy overall wasn't sufficient to make any reasonable conclusions from its ussage. Therefore any posterior analysis of any Twitter groups/hastags, friends circle , is posponed until the accuracy of the models used is increased significantly.
+
+Since the difference in results between the test and train sets are really similar we know we're experiencing an Underfitting problem, and therefore we would likely need to get more data for our model or check again the data labeling process and criteria  to ensure better results. This would be the next steps towards improving the system.
 
 This has been a really fun project, I've learnt a lot doing it, and certainly will try to learn more to improve it till it can be of relaiable on its results.
